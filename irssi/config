@@ -1,2630 +1,2630 @@
 servers = (
   {
-    address = "TGHelps.peggy.devel.ws";
+    address = "TGHelps.irc.paigeat.info";
     chatnet = "TGHelps";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
 
   {
-    address = "bitlbee.peggy.devel.ws";
+    address = "bitlbee.irc.paigeat.info";
     chatnet = "bitlbee";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
 
   {
-    address = "JuggaloIRCNet.peggy.devel.ws";
+    address = "JuggaloIRCNet.irc.paigeat.info";
     chatnet = "JuggaloIRCNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Digitalirc.peggy.devel.ws";
+    address = "Digitalirc.irc.paigeat.info";
     chatnet = "Digitalirc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PhaseNet.peggy.devel.ws";
+    address = "PhaseNet.irc.paigeat.info";
     chatnet = "PhaseNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SwiftIRC.peggy.devel.ws";
+    address = "SwiftIRC.irc.paigeat.info";
     chatnet = "SwiftIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GRnet.peggy.devel.ws";
+    address = "GRnet.irc.paigeat.info";
     chatnet = "GRnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Caelestia.peggy.devel.ws";
+    address = "Caelestia.irc.paigeat.info";
     chatnet = "Caelestia";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ImmortalAnime.peggy.devel.ws";
+    address = "ImmortalAnime.irc.paigeat.info";
     chatnet = "ImmortalAnime";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EYErc.peggy.devel.ws";
+    address = "EYErc.irc.paigeat.info";
     chatnet = "EYErc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Realitybytez.peggy.devel.ws";
+    address = "Realitybytez.irc.paigeat.info";
     chatnet = "Realitybytez";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ScaryNet.peggy.devel.ws";
+    address = "ScaryNet.irc.paigeat.info";
     chatnet = "ScaryNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Voila.peggy.devel.ws";
+    address = "Voila.irc.paigeat.info";
     chatnet = "Voila";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AwesomeChat.peggy.devel.ws";
+    address = "AwesomeChat.irc.paigeat.info";
     chatnet = "AwesomeChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Asylo.peggy.devel.ws";
+    address = "Asylo.irc.paigeat.info";
     chatnet = "Asylo";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "XAngelz.peggy.devel.ws";
+    address = "XAngelz.irc.paigeat.info";
     chatnet = "XAngelz";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Serenia.peggy.devel.ws";
+    address = "Serenia.irc.paigeat.info";
     chatnet = "Serenia";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Veezy.peggy.devel.ws";
+    address = "Veezy.irc.paigeat.info";
     chatnet = "Veezy";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Rizon.peggy.devel.ws";
+    address = "Rizon.irc.paigeat.info";
     chatnet = "Rizon";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "OtherWorlders.peggy.devel.ws";
+    address = "OtherWorlders.irc.paigeat.info";
     chatnet = "OtherWorlders";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "RomaniaIRC.peggy.devel.ws";
+    address = "RomaniaIRC.irc.paigeat.info";
     chatnet = "RomaniaIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Netgamers.peggy.devel.ws";
+    address = "Netgamers.irc.paigeat.info";
     chatnet = "Netgamers";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Illumichat.peggy.devel.ws";
+    address = "Illumichat.irc.paigeat.info";
     chatnet = "Illumichat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Krono.peggy.devel.ws";
+    address = "Krono.irc.paigeat.info";
     chatnet = "Krono";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "TalkingIRC.peggy.devel.ws";
+    address = "TalkingIRC.irc.paigeat.info";
     chatnet = "TalkingIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EsperNet.peggy.devel.ws";
+    address = "EsperNet.irc.paigeat.info";
     chatnet = "EsperNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "TVEps.peggy.devel.ws";
+    address = "TVEps.irc.paigeat.info";
     chatnet = "TVEps";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MemphisNet.peggy.devel.ws";
+    address = "MemphisNet.irc.paigeat.info";
     chatnet = "MemphisNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Novernet.peggy.devel.ws";
+    address = "Novernet.irc.paigeat.info";
     chatnet = "Novernet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "UnderMind.peggy.devel.ws";
+    address = "UnderMind.irc.paigeat.info";
     chatnet = "UnderMind";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Goldchat.peggy.devel.ws";
+    address = "Goldchat.irc.paigeat.info";
     chatnet = "Goldchat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FEFnet.peggy.devel.ws";
+    address = "FEFnet.irc.paigeat.info";
     chatnet = "FEFnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BruneiChat.peggy.devel.ws";
+    address = "BruneiChat.irc.paigeat.info";
     chatnet = "BruneiChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Synchronet.peggy.devel.ws";
+    address = "Synchronet.irc.paigeat.info";
     chatnet = "Synchronet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AbleNET.peggy.devel.ws";
+    address = "AbleNET.irc.paigeat.info";
     chatnet = "AbleNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DeepIRC.peggy.devel.ws";
+    address = "DeepIRC.irc.paigeat.info";
     chatnet = "DeepIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Ascends.peggy.devel.ws";
+    address = "Ascends.irc.paigeat.info";
     chatnet = "Ascends";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Axenet.peggy.devel.ws";
+    address = "Axenet.irc.paigeat.info";
     chatnet = "Axenet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AbsurdIRC.peggy.devel.ws";
+    address = "AbsurdIRC.irc.paigeat.info";
     chatnet = "AbsurdIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GlobalIRC.peggy.devel.ws";
+    address = "GlobalIRC.irc.paigeat.info";
     chatnet = "GlobalIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WebChat.peggy.devel.ws";
+    address = "WebChat.irc.paigeat.info";
     chatnet = "WebChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DarkTouNet.peggy.devel.ws";
+    address = "DarkTouNet.irc.paigeat.info";
     chatnet = "DarkTouNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Knightnet.peggy.devel.ws";
+    address = "Knightnet.irc.paigeat.info";
     chatnet = "Knightnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Darkfire.peggy.devel.ws";
+    address = "Darkfire.irc.paigeat.info";
     chatnet = "Darkfire";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GameSurge.peggy.devel.ws";
+    address = "GameSurge.irc.paigeat.info";
     chatnet = "GameSurge";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PhooNet.peggy.devel.ws";
+    address = "PhooNet.irc.paigeat.info";
     chatnet = "PhooNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "HellasIRC.peggy.devel.ws";
+    address = "HellasIRC.irc.paigeat.info";
     chatnet = "HellasIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "VirtuaLife.peggy.devel.ws";
+    address = "VirtuaLife.irc.paigeat.info";
     chatnet = "VirtuaLife";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Cyberarmy.peggy.devel.ws";
+    address = "Cyberarmy.irc.paigeat.info";
     chatnet = "Cyberarmy";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GlobalGamers.peggy.devel.ws";
+    address = "GlobalGamers.irc.paigeat.info";
     chatnet = "GlobalGamers";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChatFactory.peggy.devel.ws";
+    address = "ChatFactory.irc.paigeat.info";
     chatnet = "ChatFactory";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ACKnet.peggy.devel.ws";
+    address = "ACKnet.irc.paigeat.info";
     chatnet = "ACKnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SNM.peggy.devel.ws";
+    address = "SNM.irc.paigeat.info";
     chatnet = "SNM";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ZUHnet.peggy.devel.ws";
+    address = "ZUHnet.irc.paigeat.info";
     chatnet = "ZUHnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SpiderNet.peggy.devel.ws";
+    address = "SpiderNet.irc.paigeat.info";
     chatnet = "SpiderNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NullIRC.peggy.devel.ws";
+    address = "NullIRC.irc.paigeat.info";
     chatnet = "NullIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GermanElite.peggy.devel.ws";
+    address = "GermanElite.irc.paigeat.info";
     chatnet = "GermanElite";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DrLnet.peggy.devel.ws";
+    address = "DrLnet.irc.paigeat.info";
     chatnet = "DrLnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatpolis.peggy.devel.ws";
+    address = "Chatpolis.irc.paigeat.info";
     chatnet = "Chatpolis";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "KukaiOnline.peggy.devel.ws";
+    address = "KukaiOnline.irc.paigeat.info";
     chatnet = "KukaiOnline";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Langochat.peggy.devel.ws";
+    address = "Langochat.irc.paigeat.info";
     chatnet = "Langochat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Kickchat.peggy.devel.ws";
+    address = "Kickchat.irc.paigeat.info";
     chatnet = "Kickchat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Undernet.peggy.devel.ws";
+    address = "Undernet.irc.paigeat.info";
     chatnet = "Undernet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Worldnet.peggy.devel.ws";
+    address = "Worldnet.irc.paigeat.info";
     chatnet = "Worldnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Starfusion.peggy.devel.ws";
+    address = "Starfusion.irc.paigeat.info";
     chatnet = "Starfusion";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FlameIRC.peggy.devel.ws";
+    address = "FlameIRC.irc.paigeat.info";
     chatnet = "FlameIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "STCity.peggy.devel.ws";
+    address = "STCity.irc.paigeat.info";
     chatnet = "STCity";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AngelEyez.peggy.devel.ws";
+    address = "AngelEyez.irc.paigeat.info";
     chatnet = "AngelEyez";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Jaundies.peggy.devel.ws";
+    address = "Jaundies.irc.paigeat.info";
     chatnet = "Jaundies";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Abjects.peggy.devel.ws";
+    address = "Abjects.irc.paigeat.info";
     chatnet = "Abjects";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GamesNET.peggy.devel.ws";
+    address = "GamesNET.irc.paigeat.info";
     chatnet = "GamesNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Risanet.peggy.devel.ws";
+    address = "Risanet.irc.paigeat.info";
     chatnet = "Risanet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MMOIRC.peggy.devel.ws";
+    address = "MMOIRC.irc.paigeat.info";
     chatnet = "MMOIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Webcomm.peggy.devel.ws";
+    address = "Webcomm.irc.paigeat.info";
     chatnet = "Webcomm";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Slashnet.peggy.devel.ws";
+    address = "Slashnet.irc.paigeat.info";
     chatnet = "Slashnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "HabberNet.peggy.devel.ws";
+    address = "HabberNet.irc.paigeat.info";
     chatnet = "HabberNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WeArab.peggy.devel.ws";
+    address = "WeArab.irc.paigeat.info";
     chatnet = "WeArab";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SexNet.peggy.devel.ws";
+    address = "SexNet.irc.paigeat.info";
     chatnet = "SexNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "RelayChat.peggy.devel.ws";
+    address = "RelayChat.irc.paigeat.info";
     chatnet = "RelayChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCHispano.peggy.devel.ws";
+    address = "IRCHispano.irc.paigeat.info";
     chatnet = "IRCHispano";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRSee.peggy.devel.ws";
+    address = "IRSee.irc.paigeat.info";
     chatnet = "IRSee";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BrokenPipe.peggy.devel.ws";
+    address = "BrokenPipe.irc.paigeat.info";
     chatnet = "BrokenPipe";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PhaZeNet.peggy.devel.ws";
+    address = "PhaZeNet.irc.paigeat.info";
     chatnet = "PhaZeNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCChat.peggy.devel.ws";
+    address = "IRCChat.irc.paigeat.info";
     chatnet = "IRCChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "is1337.peggy.devel.ws";
+    address = "is1337.irc.paigeat.info";
     chatnet = "is1337";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Imperium.peggy.devel.ws";
+    address = "Imperium.irc.paigeat.info";
     chatnet = "Imperium";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chikahan.peggy.devel.ws";
+    address = "Chikahan.irc.paigeat.info";
     chatnet = "Chikahan";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GigaIRC.peggy.devel.ws";
+    address = "GigaIRC.irc.paigeat.info";
     chatnet = "GigaIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Karacay.peggy.devel.ws";
+    address = "Karacay.irc.paigeat.info";
     chatnet = "Karacay";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChattingAway.peggy.devel.ws";
+    address = "ChattingAway.irc.paigeat.info";
     chatnet = "ChattingAway";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "TotalIRC.peggy.devel.ws";
+    address = "TotalIRC.irc.paigeat.info";
     chatnet = "TotalIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Xevion.peggy.devel.ws";
+    address = "Xevion.irc.paigeat.info";
     chatnet = "Xevion";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GreekIRC.peggy.devel.ws";
+    address = "GreekIRC.irc.paigeat.info";
     chatnet = "GreekIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Teranovanet.peggy.devel.ws";
+    address = "Teranovanet.irc.paigeat.info";
     chatnet = "Teranovanet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IrcWorld.peggy.devel.ws";
+    address = "IrcWorld.irc.paigeat.info";
     chatnet = "IrcWorld";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Stormdancing.peggy.devel.ws";
+    address = "Stormdancing.irc.paigeat.info";
     chatnet = "Stormdancing";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ThunderCity.peggy.devel.ws";
+    address = "ThunderCity.irc.paigeat.info";
     chatnet = "ThunderCity";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "D00mnet.peggy.devel.ws";
+    address = "D00mnet.irc.paigeat.info";
     chatnet = "D00mnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Malaynet.peggy.devel.ws";
+    address = "Malaynet.irc.paigeat.info";
     chatnet = "Malaynet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChatCircuit.peggy.devel.ws";
+    address = "ChatCircuit.irc.paigeat.info";
     chatnet = "ChatCircuit";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Blitzed.peggy.devel.ws";
+    address = "Blitzed.irc.paigeat.info";
     chatnet = "Blitzed";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCNightfire.peggy.devel.ws";
+    address = "IRCNightfire.irc.paigeat.info";
     chatnet = "IRCNightfire";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Rootspirit.peggy.devel.ws";
+    address = "Rootspirit.irc.paigeat.info";
     chatnet = "Rootspirit";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Financialchat.peggy.devel.ws";
+    address = "Financialchat.irc.paigeat.info";
     chatnet = "Financialchat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Necron.peggy.devel.ws";
+    address = "Necron.irc.paigeat.info";
     chatnet = "Necron";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCChile.peggy.devel.ws";
+    address = "IRCChile.irc.paigeat.info";
     chatnet = "IRCChile";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "bonGster.peggy.devel.ws";
+    address = "bonGster.irc.paigeat.info";
     chatnet = "bonGster";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SpaceTronix.peggy.devel.ws";
+    address = "SpaceTronix.irc.paigeat.info";
     chatnet = "SpaceTronix";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AnimeIRCnet.peggy.devel.ws";
+    address = "AnimeIRCnet.irc.paigeat.info";
     chatnet = "AnimeIRCnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SuskunNet.peggy.devel.ws";
+    address = "SuskunNet.irc.paigeat.info";
     chatnet = "SuskunNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "LinkNet.peggy.devel.ws";
+    address = "LinkNet.irc.paigeat.info";
     chatnet = "LinkNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Burmese.peggy.devel.ws";
+    address = "Burmese.irc.paigeat.info";
     chatnet = "Burmese";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BikersIRC.peggy.devel.ws";
+    address = "BikersIRC.irc.paigeat.info";
     chatnet = "BikersIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatnet.peggy.devel.ws";
+    address = "Chatnet.irc.paigeat.info";
     chatnet = "Chatnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MASChat.peggy.devel.ws";
+    address = "MASChat.irc.paigeat.info";
     chatnet = "MASChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WorldIRC.peggy.devel.ws";
+    address = "WorldIRC.irc.paigeat.info";
     chatnet = "WorldIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "StarChat.peggy.devel.ws";
+    address = "StarChat.irc.paigeat.info";
     chatnet = "StarChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "JasonIRC.peggy.devel.ws";
+    address = "JasonIRC.irc.paigeat.info";
     chatnet = "JasonIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Forestnet.peggy.devel.ws";
+    address = "Forestnet.irc.paigeat.info";
     chatnet = "Forestnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Sinoptic.peggy.devel.ws";
+    address = "Sinoptic.irc.paigeat.info";
     chatnet = "Sinoptic";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SyrolNet.peggy.devel.ws";
+    address = "SyrolNet.irc.paigeat.info";
     chatnet = "SyrolNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AustChat.peggy.devel.ws";
+    address = "AustChat.irc.paigeat.info";
     chatnet = "AustChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EuropeIRC.peggy.devel.ws";
+    address = "EuropeIRC.irc.paigeat.info";
     chatnet = "EuropeIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SeersIRC.peggy.devel.ws";
+    address = "SeersIRC.irc.paigeat.info";
     chatnet = "SeersIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatster.peggy.devel.ws";
+    address = "Chatster.irc.paigeat.info";
     chatnet = "Chatster";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "UICN.peggy.devel.ws";
+    address = "UICN.irc.paigeat.info";
     chatnet = "UICN";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "UnderZ.peggy.devel.ws";
+    address = "UnderZ.irc.paigeat.info";
     chatnet = "UnderZ";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NightStar.peggy.devel.ws";
+    address = "NightStar.irc.paigeat.info";
     chatnet = "NightStar";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Mistrider.peggy.devel.ws";
+    address = "Mistrider.irc.paigeat.info";
     chatnet = "Mistrider";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "HellenicNet.peggy.devel.ws";
+    address = "HellenicNet.irc.paigeat.info";
     chatnet = "HellenicNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCBY.peggy.devel.ws";
+    address = "IRCBY.irc.paigeat.info";
     chatnet = "IRCBY";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Kenthaber.peggy.devel.ws";
+    address = "Kenthaber.irc.paigeat.info";
     chatnet = "Kenthaber";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NPIRCS.peggy.devel.ws";
+    address = "NPIRCS.irc.paigeat.info";
     chatnet = "NPIRCS";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Realirc.peggy.devel.ws";
+    address = "Realirc.irc.paigeat.info";
     chatnet = "Realirc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Germanfreakz.peggy.devel.ws";
+    address = "Germanfreakz.irc.paigeat.info";
     chatnet = "Germanfreakz";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Othernet.peggy.devel.ws";
+    address = "Othernet.irc.paigeat.info";
     chatnet = "Othernet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "CAJnet.peggy.devel.ws";
+    address = "CAJnet.irc.paigeat.info";
     chatnet = "CAJnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Klavye.peggy.devel.ws";
+    address = "Klavye.irc.paigeat.info";
     chatnet = "Klavye";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GalaxyNet.peggy.devel.ws";
+    address = "GalaxyNet.irc.paigeat.info";
     chatnet = "GalaxyNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AfterX.peggy.devel.ws";
+    address = "AfterX.irc.paigeat.info";
     chatnet = "AfterX";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DeviantART.peggy.devel.ws";
+    address = "DeviantART.irc.paigeat.info";
     chatnet = "DeviantART";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FDFnet.peggy.devel.ws";
+    address = "FDFnet.irc.paigeat.info";
     chatnet = "FDFnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Deepspace.peggy.devel.ws";
+    address = "Deepspace.irc.paigeat.info";
     chatnet = "Deepspace";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "RedLatina.peggy.devel.ws";
+    address = "RedLatina.irc.paigeat.info";
     chatnet = "RedLatina";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NinthGate.peggy.devel.ws";
+    address = "NinthGate.irc.paigeat.info";
     chatnet = "NinthGate";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "JetIRC.peggy.devel.ws";
+    address = "JetIRC.irc.paigeat.info";
     chatnet = "JetIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AfterNET.peggy.devel.ws";
+    address = "AfterNET.irc.paigeat.info";
     chatnet = "AfterNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChatX.peggy.devel.ws";
+    address = "ChatX.irc.paigeat.info";
     chatnet = "ChatX";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Goodchatting.peggy.devel.ws";
+    address = "Goodchatting.irc.paigeat.info";
     chatnet = "Goodchatting";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "LichtSnel.peggy.devel.ws";
+    address = "LichtSnel.irc.paigeat.info";
     chatnet = "LichtSnel";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatchannel.peggy.devel.ws";
+    address = "Chatchannel.irc.paigeat.info";
     chatnet = "Chatchannel";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WyldRyde.peggy.devel.ws";
+    address = "WyldRyde.irc.paigeat.info";
     chatnet = "WyldRyde";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DhCNetwork.peggy.devel.ws";
+    address = "DhCNetwork.irc.paigeat.info";
     chatnet = "DhCNetwork";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChatNPlay.peggy.devel.ws";
+    address = "ChatNPlay.irc.paigeat.info";
     chatnet = "ChatNPlay";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "QuakeNet.peggy.devel.ws";
+    address = "QuakeNet.irc.paigeat.info";
     chatnet = "QuakeNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Succuba.peggy.devel.ws";
+    address = "Succuba.irc.paigeat.info";
     chatnet = "Succuba";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "euIRCnet.peggy.devel.ws";
+    address = "euIRCnet.irc.paigeat.info";
     chatnet = "euIRCnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Echo34.peggy.devel.ws";
+    address = "Echo34.irc.paigeat.info";
     chatnet = "Echo34";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "KDFSnet.peggy.devel.ws";
+    address = "KDFSnet.irc.paigeat.info";
     chatnet = "KDFSnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PhrenzyIRC.peggy.devel.ws";
+    address = "PhrenzyIRC.irc.paigeat.info";
     chatnet = "PhrenzyIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AseanChat.peggy.devel.ws";
+    address = "AseanChat.irc.paigeat.info";
     chatnet = "AseanChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WikkedWire.peggy.devel.ws";
+    address = "WikkedWire.irc.paigeat.info";
     chatnet = "WikkedWire";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Mozilla.peggy.devel.ws";
+    address = "Mozilla.irc.paigeat.info";
     chatnet = "Mozilla";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Cyanidex.peggy.devel.ws";
+    address = "Cyanidex.irc.paigeat.info";
     chatnet = "Cyanidex";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AmberNet.peggy.devel.ws";
+    address = "AmberNet.irc.paigeat.info";
     chatnet = "AmberNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PowerPrecision.peggy.devel.ws";
+    address = "PowerPrecision.irc.paigeat.info";
     chatnet = "PowerPrecision";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AshNet.peggy.devel.ws";
+    address = "AshNet.irc.paigeat.info";
     chatnet = "AshNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Quakenet.peggy.devel.ws";
+    address = "Quakenet.irc.paigeat.info";
     chatnet = "Quakenet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Aniverse.peggy.devel.ws";
+    address = "Aniverse.irc.paigeat.info";
     chatnet = "Aniverse";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DarkStorm.peggy.devel.ws";
+    address = "DarkStorm.irc.paigeat.info";
     chatnet = "DarkStorm";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatworks.peggy.devel.ws";
+    address = "Chatworks.irc.paigeat.info";
     chatnet = "Chatworks";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AllNetwork.peggy.devel.ws";
+    address = "AllNetwork.irc.paigeat.info";
     chatnet = "AllNetwork";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ShadowWorld.peggy.devel.ws";
+    address = "ShadowWorld.irc.paigeat.info";
     chatnet = "ShadowWorld";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BittahIRC.peggy.devel.ws";
+    address = "BittahIRC.irc.paigeat.info";
     chatnet = "BittahIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ArabChat.peggy.devel.ws";
+    address = "ArabChat.irc.paigeat.info";
     chatnet = "ArabChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "KampungChat.peggy.devel.ws";
+    address = "KampungChat.irc.paigeat.info";
     chatnet = "KampungChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "OflooIRC.peggy.devel.ws";
+    address = "OflooIRC.irc.paigeat.info";
     chatnet = "OflooIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ZAnetNet.peggy.devel.ws";
+    address = "ZAnetNet.irc.paigeat.info";
     chatnet = "ZAnetNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DreamIrc.peggy.devel.ws";
+    address = "DreamIrc.irc.paigeat.info";
     chatnet = "DreamIrc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Lepaknet.peggy.devel.ws";
+    address = "Lepaknet.irc.paigeat.info";
     chatnet = "Lepaknet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "CodersNet.peggy.devel.ws";
+    address = "CodersNet.irc.paigeat.info";
     chatnet = "CodersNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Elevanet.peggy.devel.ws";
+    address = "Elevanet.irc.paigeat.info";
     chatnet = "Elevanet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Darktree.peggy.devel.ws";
+    address = "Darktree.irc.paigeat.info";
     chatnet = "Darktree";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "UKchatterbox.peggy.devel.ws";
+    address = "UKchatterbox.irc.paigeat.info";
     chatnet = "UKchatterbox";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WonderNet.peggy.devel.ws";
+    address = "WonderNet.irc.paigeat.info";
     chatnet = "WonderNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BackwerdsIRC.peggy.devel.ws";
+    address = "BackwerdsIRC.irc.paigeat.info";
     chatnet = "BackwerdsIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Striked.peggy.devel.ws";
+    address = "Striked.irc.paigeat.info";
     chatnet = "Striked";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Roofstar.peggy.devel.ws";
+    address = "Roofstar.irc.paigeat.info";
     chatnet = "Roofstar";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "StarLinkOrg.peggy.devel.ws";
+    address = "StarLinkOrg.irc.paigeat.info";
     chatnet = "StarLinkOrg";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCube.peggy.devel.ws";
+    address = "IRCube.irc.paigeat.info";
     chatnet = "IRCube";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ScifiNet.peggy.devel.ws";
+    address = "ScifiNet.irc.paigeat.info";
     chatnet = "ScifiNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "WhatNet.peggy.devel.ws";
+    address = "WhatNet.irc.paigeat.info";
     chatnet = "WhatNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Freequest.peggy.devel.ws";
+    address = "Freequest.irc.paigeat.info";
     chatnet = "Freequest";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Discussioni.peggy.devel.ws";
+    address = "Discussioni.irc.paigeat.info";
     chatnet = "Discussioni";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SerenityIRC.peggy.devel.ws";
+    address = "SerenityIRC.irc.paigeat.info";
     chatnet = "SerenityIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRDSI.peggy.devel.ws";
+    address = "IRDSI.irc.paigeat.info";
     chatnet = "IRDSI";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Slacked.peggy.devel.ws";
+    address = "Slacked.irc.paigeat.info";
     chatnet = "Slacked";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IrcSuper.peggy.devel.ws";
+    address = "IrcSuper.irc.paigeat.info";
     chatnet = "IrcSuper";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Nevernet.peggy.devel.ws";
+    address = "Nevernet.irc.paigeat.info";
     chatnet = "Nevernet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "HeavenlyPlace.peggy.devel.ws";
+    address = "HeavenlyPlace.irc.paigeat.info";
     chatnet = "HeavenlyPlace";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IrCQNet.peggy.devel.ws";
+    address = "IrCQNet.irc.paigeat.info";
     chatnet = "IrCQNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GermanyIRC.peggy.devel.ws";
+    address = "GermanyIRC.irc.paigeat.info";
     chatnet = "GermanyIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ForeverChat.peggy.devel.ws";
+    address = "ForeverChat.irc.paigeat.info";
     chatnet = "ForeverChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Ciudad.peggy.devel.ws";
+    address = "Ciudad.irc.paigeat.info";
     chatnet = "Ciudad";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Librenet.peggy.devel.ws";
+    address = "Librenet.irc.paigeat.info";
     chatnet = "Librenet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Maddshark.peggy.devel.ws";
+    address = "Maddshark.irc.paigeat.info";
     chatnet = "Maddshark";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Outsiderz.peggy.devel.ws";
+    address = "Outsiderz.irc.paigeat.info";
     chatnet = "Outsiderz";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MagicStar.peggy.devel.ws";
+    address = "MagicStar.irc.paigeat.info";
     chatnet = "MagicStar";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FBN.peggy.devel.ws";
+    address = "FBN.irc.paigeat.info";
     chatnet = "FBN";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "LobiNET.peggy.devel.ws";
+    address = "LobiNET.irc.paigeat.info";
     chatnet = "LobiNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "P2PChat.peggy.devel.ws";
+    address = "P2PChat.irc.paigeat.info";
     chatnet = "P2PChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Different.peggy.devel.ws";
+    address = "Different.irc.paigeat.info";
     chatnet = "Different";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "StayNet.peggy.devel.ws";
+    address = "StayNet.irc.paigeat.info";
     chatnet = "StayNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Freenode.peggy.devel.ws";
+    address = "Freenode.irc.paigeat.info";
     chatnet = "Freenode";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCHighway.peggy.devel.ws";
+    address = "IRCHighway.irc.paigeat.info";
     chatnet = "IRCHighway";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DALnet.peggy.devel.ws";
+    address = "DALnet.irc.paigeat.info";
     chatnet = "DALnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Dynastynet.peggy.devel.ws";
+    address = "Dynastynet.irc.paigeat.info";
     chatnet = "Dynastynet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Windfyre.peggy.devel.ws";
+    address = "Windfyre.irc.paigeat.info";
     chatnet = "Windfyre";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MatrixNet.peggy.devel.ws";
+    address = "MatrixNet.irc.paigeat.info";
     chatnet = "MatrixNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "VirtuaNet.peggy.devel.ws";
+    address = "VirtuaNet.irc.paigeat.info";
     chatnet = "VirtuaNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NiX.peggy.devel.ws";
+    address = "NiX.irc.paigeat.info";
     chatnet = "NiX";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MalaysiaIRC.peggy.devel.ws";
+    address = "MalaysiaIRC.irc.paigeat.info";
     chatnet = "MalaysiaIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "URChat.peggy.devel.ws";
+    address = "URChat.irc.paigeat.info";
     chatnet = "URChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChakraNET.peggy.devel.ws";
+    address = "ChakraNET.irc.paigeat.info";
     chatnet = "ChakraNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "LandOLeet.peggy.devel.ws";
+    address = "LandOLeet.irc.paigeat.info";
     chatnet = "LandOLeet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PTnet.peggy.devel.ws";
+    address = "PTnet.irc.paigeat.info";
     chatnet = "PTnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EntertheGame.peggy.devel.ws";
+    address = "EntertheGame.irc.paigeat.info";
     chatnet = "EntertheGame";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FunNet.peggy.devel.ws";
+    address = "FunNet.irc.paigeat.info";
     chatnet = "FunNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCtoo.peggy.devel.ws";
+    address = "IRCtoo.irc.paigeat.info";
     chatnet = "IRCtoo";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BolChat.peggy.devel.ws";
+    address = "BolChat.irc.paigeat.info";
     chatnet = "BolChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EFnet.peggy.devel.ws";
+    address = "EFnet.irc.paigeat.info";
     chatnet = "EFnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BigPond.peggy.devel.ws";
+    address = "BigPond.irc.paigeat.info";
     chatnet = "BigPond";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ZAnetOrg.peggy.devel.ws";
+    address = "ZAnetOrg.irc.paigeat.info";
     chatnet = "ZAnetOrg";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatsociety.peggy.devel.ws";
+    address = "Chatsociety.irc.paigeat.info";
     chatnet = "Chatsociety";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Ozorg.peggy.devel.ws";
+    address = "Ozorg.irc.paigeat.info";
     chatnet = "Ozorg";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "PhatNET.peggy.devel.ws";
+    address = "PhatNET.irc.paigeat.info";
     chatnet = "PhatNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ChatSpike.peggy.devel.ws";
+    address = "ChatSpike.irc.paigeat.info";
     chatnet = "ChatSpike";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ShadowFire.peggy.devel.ws";
+    address = "ShadowFire.irc.paigeat.info";
     chatnet = "ShadowFire";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GigaCrew.peggy.devel.ws";
+    address = "GigaCrew.irc.paigeat.info";
     chatnet = "GigaCrew";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Communicate.peggy.devel.ws";
+    address = "Communicate.irc.paigeat.info";
     chatnet = "Communicate";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NeoturbineNET.peggy.devel.ws";
+    address = "NeoturbineNET.irc.paigeat.info";
     chatnet = "NeoturbineNET";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AustNet.peggy.devel.ws";
+    address = "AustNet.irc.paigeat.info";
     chatnet = "AustNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "KnightIRC.peggy.devel.ws";
+    address = "KnightIRC.irc.paigeat.info";
     chatnet = "KnightIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "UnitedChat.peggy.devel.ws";
+    address = "UnitedChat.irc.paigeat.info";
     chatnet = "UnitedChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Accessirc.peggy.devel.ws";
+    address = "Accessirc.irc.paigeat.info";
     chatnet = "Accessirc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "NeoXys.peggy.devel.ws";
+    address = "NeoXys.irc.paigeat.info";
     chatnet = "NeoXys";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRCnet.peggy.devel.ws";
+    address = "IRCnet.irc.paigeat.info";
     chatnet = "IRCnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Globalchat.peggy.devel.ws";
+    address = "Globalchat.irc.paigeat.info";
     chatnet = "Globalchat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "GammaForce.peggy.devel.ws";
+    address = "GammaForce.irc.paigeat.info";
     chatnet = "GammaForce";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "DarkMyst.peggy.devel.ws";
+    address = "DarkMyst.irc.paigeat.info";
     chatnet = "DarkMyst";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FroZyn.peggy.devel.ws";
+    address = "FroZyn.irc.paigeat.info";
     chatnet = "FroZyn";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRC2.peggy.devel.ws";
+    address = "IRC2.irc.paigeat.info";
     chatnet = "IRC2";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "IRC4Fun.peggy.devel.ws";
+    address = "IRC4Fun.irc.paigeat.info";
     chatnet = "IRC4Fun";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Muhabbet.peggy.devel.ws";
+    address = "Muhabbet.irc.paigeat.info";
     chatnet = "Muhabbet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EverywhereChat.peggy.devel.ws";
+    address = "EverywhereChat.irc.paigeat.info";
     chatnet = "EverywhereChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Xtris.peggy.devel.ws";
+    address = "Xtris.irc.paigeat.info";
     chatnet = "Xtris";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Beatmix.peggy.devel.ws";
+    address = "Beatmix.irc.paigeat.info";
     chatnet = "Beatmix";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Datawhore.peggy.devel.ws";
+    address = "Datawhore.irc.paigeat.info";
     chatnet = "Datawhore";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Oceanius.peggy.devel.ws";
+    address = "Oceanius.irc.paigeat.info";
     chatnet = "Oceanius";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EpicIRC.peggy.devel.ws";
+    address = "EpicIRC.irc.paigeat.info";
     chatnet = "EpicIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chat4all.peggy.devel.ws";
+    address = "Chat4all.irc.paigeat.info";
     chatnet = "Chat4all";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Azzurra.peggy.devel.ws";
+    address = "Azzurra.irc.paigeat.info";
     chatnet = "Azzurra";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "AstroLink.peggy.devel.ws";
+    address = "AstroLink.irc.paigeat.info";
     chatnet = "AstroLink";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Beyondirc.peggy.devel.ws";
+    address = "Beyondirc.irc.paigeat.info";
     chatnet = "Beyondirc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BDSMnet.peggy.devel.ws";
+    address = "BDSMnet.irc.paigeat.info";
     chatnet = "BDSMnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Rezosup.peggy.devel.ws";
+    address = "Rezosup.irc.paigeat.info";
     chatnet = "Rezosup";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Chatcafe.peggy.devel.ws";
+    address = "Chatcafe.irc.paigeat.info";
     chatnet = "Chatcafe";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SimosNap.peggy.devel.ws";
+    address = "SimosNap.irc.paigeat.info";
     chatnet = "SimosNap";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ZurnaNet.peggy.devel.ws";
+    address = "ZurnaNet.irc.paigeat.info";
     chatnet = "ZurnaNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "LDSircNet.peggy.devel.ws";
+    address = "LDSircNet.irc.paigeat.info";
     chatnet = "LDSircNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "EuropNet.peggy.devel.ws";
+    address = "EuropNet.irc.paigeat.info";
     chatnet = "EuropNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "MuggleNet.peggy.devel.ws";
+    address = "MuggleNet.irc.paigeat.info";
     chatnet = "MuggleNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ECNet.peggy.devel.ws";
+    address = "ECNet.irc.paigeat.info";
     chatnet = "ECNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Sohbet.peggy.devel.ws";
+    address = "Sohbet.irc.paigeat.info";
     chatnet = "Sohbet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "FreedomChatIRC.peggy.devel.ws";
+    address = "FreedomChatIRC.irc.paigeat.info";
     chatnet = "FreedomChatIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Starlinkirc.peggy.devel.ws";
+    address = "Starlinkirc.irc.paigeat.info";
     chatnet = "Starlinkirc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Umbranet.peggy.devel.ws";
+    address = "Umbranet.irc.paigeat.info";
     chatnet = "Umbranet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "XentoniX.peggy.devel.ws";
+    address = "XentoniX.irc.paigeat.info";
     chatnet = "XentoniX";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "SorceryNet.peggy.devel.ws";
+    address = "SorceryNet.irc.paigeat.info";
     chatnet = "SorceryNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "BlabberNet.peggy.devel.ws";
+    address = "BlabberNet.irc.paigeat.info";
     chatnet = "BlabberNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Brokenirc.peggy.devel.ws";
+    address = "Brokenirc.irc.paigeat.info";
     chatnet = "Brokenirc";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "ZeroFuzion.peggy.devel.ws";
+    address = "ZeroFuzion.irc.paigeat.info";
     chatnet = "ZeroFuzion";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "RusNet.peggy.devel.ws";
+    address = "RusNet.irc.paigeat.info";
     chatnet = "RusNet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "uIRC.peggy.devel.ws";
+    address = "uIRC.irc.paigeat.info";
     chatnet = "uIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Hollimyer.peggy.devel.ws";
+    address = "Hollimyer.irc.paigeat.info";
     chatnet = "Hollimyer";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "synIRC.peggy.devel.ws";
+    address = "synIRC.irc.paigeat.info";
     chatnet = "synIRC";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Newnet.peggy.devel.ws";
+    address = "Newnet.irc.paigeat.info";
     chatnet = "Newnet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "CentralChat.peggy.devel.ws";
+    address = "CentralChat.irc.paigeat.info";
     chatnet = "CentralChat";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Kreynet.peggy.devel.ws";
+    address = "Kreynet.irc.paigeat.info";
     chatnet = "Kreynet";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "Atrum.peggy.devel.ws";
+    address = "Atrum.irc.paigeat.info";
     chatnet = "Atrum";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "swn.peggy.devel.ws";
+    address = "swn.irc.paigeat.info";
     chatnet = "swn";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
   },
   {
-    address = "susans.peggy.devel.ws";
+    address = "susans.irc.paigeat.info";
     chatnet = "susans";
     port = "6668";
-    password = "wtf";
+    password = "cheese";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
@@ -4447,34 +4447,12 @@ statusbar = {
         barend = { priority = "100"; alignment = "right"; };
       };
     };
-    awl_4 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_4 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_5 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_5 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_6 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_6 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
   };
 };
 ignores = (
   { mask = "SPENCERLEE"; level = "ALL"; },
   { mask = "*email"; level = "ALL"; },
-  { mask = "*raw"; level = "ALL"; },
-  { mask = "*status"; level = "ALL"; }
+  { mask = "*raw"; level = "ALL"; }
 );
 channels = (
   { name = "#channel3"; chatnet = "rizon"; autojoin = "yes"; },
