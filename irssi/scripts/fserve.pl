@@ -2078,7 +2078,6 @@ sub sig_fs_command
 			}
 		}
 	} elsif ($cmd eq 'notify') {
-		return unless ($fs_enabled);
 		# TODO /fs notify #channel server
 		# FIXME not working?
 		foreach my $qn (0 .. $#fs_queues) {
