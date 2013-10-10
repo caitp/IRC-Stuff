@@ -4431,7 +4431,9 @@ settings = {
     activity_hide_level = "none";
     windows_auto_renumber = "no";
   };
-  "perl/core/scripts" = { awl_maxlines = "40"; };
+  "perl/core/scripts" = {
+    awl_maxlines = "40";
+  };
 };
 statusbar = {
   default = {
@@ -4488,20 +4490,6 @@ statusbar = {
       items = {
         barstart = { priority = "100"; };
         awl_7 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_8 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_8 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_9 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_9 = { };
         barend = { priority = "100"; alignment = "right"; };
       };
     };
