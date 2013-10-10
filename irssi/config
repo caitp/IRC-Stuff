@@ -4433,7 +4433,10 @@ settings = {
   };
   "perl/core/scripts" = {
     awl_maxlines = "40";
+    ascii_default_font = "/home/erratic/IRC-Stuff/fonts/graffiti.flf";
   };
+  "irc/core" = { cmd_queue_speed = "0msec"; cmds_max_at_once = "0"; };
+  "irc/flood" = { flood_max_msgs = "0"; flood_timecheck = "0"; };
 };
 statusbar = {
   default = {
@@ -4490,6 +4493,13 @@ statusbar = {
       items = {
         barstart = { priority = "100"; };
         awl_7 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_8 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_8 = { };
         barend = { priority = "100"; alignment = "right"; };
       };
     };
