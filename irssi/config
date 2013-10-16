@@ -2640,6 +2640,16 @@ servers = (
     autoconnect = "yes";
   },
   {
+    address = "twosix.irc.paigeat.info";
+    chatnet = "twosix";
+    port = "6668";
+    password = "cheese";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+
+  },
+  {
     address = "auto";
     port = "0";
     password = "teightchan";
@@ -4402,11 +4412,11 @@ chatnets = {
     username = "susans";
     realname = "susans";
   };
-  2600Net = {
+  twosix = {
     type = "IRC";
-    nick = "hackerquarterly";
-    username = "hackerquarterly";
-    realname = "hackerquartery";
+    nick = "twosix";
+    username = "twosix";
+    realname = "twosix";
   };
   eighteighteightchan = {
     type = "IRC";
@@ -4500,13 +4510,6 @@ statusbar = {
       items = {
         barstart = { priority = "100"; };
         awl_8 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_9 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_9 = { };
         barend = { priority = "100"; alignment = "right"; };
       };
     };
