@@ -1,4 +1,14 @@
 servers = (
+{
+    address = "furnet.irc.paigeat.info";
+    chatnet = "FurNet";
+    port = "6668";
+    password = "cheese";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  },
+
   {
     address = "gorfnet.irc.paigeat.info";
     chatnet = "gorfnet";
@@ -2666,6 +2676,14 @@ chatnets = {
     realname = "Anonymous girl";
   };
 
+FurNet = {
+    type = "IRC";
+    nick = "FurNet";
+    username = "FurNet";
+    realname = "Anonymous girl";
+  };
+
+
   gorfnet = {
     type = "IRC";
     nick = "gorfnet";
@@ -4503,13 +4521,6 @@ statusbar = {
       items = {
         barstart = { priority = "100"; };
         awl_7 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_8 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_8 = { };
         barend = { priority = "100"; alignment = "right"; };
       };
     };
