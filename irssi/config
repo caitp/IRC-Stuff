@@ -1,5 +1,24 @@
 servers = (
-{
+ {
+    address = "amigaworld.irc.paigeat.info";
+    chatnet = "amigaworld";
+    port = "6668";
+    password = "cheese";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  },
+ {
+    address = "canternet.irc.paigeat.info";
+    chatnet = "canternet";
+    port = "6668";
+    password = "cheese";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  },
+
+  {
     address = "furnet.irc.paigeat.info";
     chatnet = "FurNet";
     port = "6668";
@@ -2676,6 +2695,20 @@ chatnets = {
     realname = "Anonymous girl";
   };
 
+  canternet = {
+    type = "IRC";
+    nick = "canternet";
+    username = "canternet";
+    realname = "Anonymous girl";
+  };
+ amigaworld = {
+    type = "IRC";
+    nick = "amigaworld";
+    username = "amigaworld";
+    realname = "Anonymous girl";
+  };
+
+  
 FurNet = {
     type = "IRC";
     nick = "FurNet";
@@ -4521,6 +4554,13 @@ statusbar = {
       items = {
         barstart = { priority = "100"; };
         awl_7 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_8 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_8 = { };
         barend = { priority = "100"; alignment = "right"; };
       };
     };
