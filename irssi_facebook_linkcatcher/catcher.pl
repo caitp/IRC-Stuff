@@ -16,7 +16,7 @@ $VERSION = "0.2";
         url         => 'https://www.facebook.com/irclinks',
         );
 
-my $lasturl;
+my $lasturl = '';
 
 # Change the file path below if needed
 my $file = "$ENV{HOME}/.urllog";
@@ -75,12 +75,10 @@ sub url_log
 
 sub get_config 
 {
-    local $/; #enable slurp
-        open my $api_key, "<", $trendsurl;
-#$json = <$fh>;
-    my $json = get( $trendsurl );
-#TODO die "Could not get $trendsurl!" unless defined $json;
-# Decode the entire JSON
+    local $/;
+    open(FILE, $api_key);
+    my $json = <FILE>;
+    close(FILE);  
     my $decoded_json = decode_json( $json );
     return $decoded_json;
 }
@@ -91,22 +89,26 @@ sub get_config
 
 sub sendto_facebook_stream 
 {
+    my $config = get_config();
+    print $config;
     my $client = WWW::Facebook::API->new(
             desktop => 0,
-            api_key => 'your api key',
-            secret => 'your secret key',
+            api_key => $config->{'app_id'},
+            secret => $config->{'app_secret'},
+            postback => $config->{'return_url'}
             );
-
+    print Dumper($client);
+    return;
 # Change API key and secret
 #print "Enter your public API key: ";
 #chomp( my $val = <STDIN> );
-    $client->api_key($val);
+    #$client->api_key($val);
 #print "Enter your API secret: ";
 #chomp($val = <STDIN> );
-    $client->secret($val);
+    #$client->secret($val);
 
 # not needed if web app (see $client->canvas->get_fb_params)
-    $client->auth->get_session( $token );
+    #$client->auth->get_session( $token );
 
 #use Data::Dumper;
 #my $friends_perl = $client->friends->get;
@@ -126,7 +128,11 @@ sub sendto_facebook_stream
 }
 
 #handlers 
-Irssi::signal_add_last("message public", "url_public");
-Irssi::signal_add_last("message private", "url_private");
+#Irssi::signal_add_last("message public", "url_public");
+#Irssi::signal_add_last("message private", "url_private");
 #Irssi::command_bind("url", "url_cmd");
-
+print "loaded and ready.";
+my $testconfig = get_config(); 
+print Dumper($testconfig);
+print "$testconfig->{'app_id'}";
+sendto_facebook_stream();

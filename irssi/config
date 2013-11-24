@@ -4571,27 +4571,6 @@ statusbar = {
         barend = { priority = "100"; alignment = "right"; };
       };
     };
-    awl_10 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_10 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_11 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_11 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
-    awl_12 = {
-      items = {
-        barstart = { priority = "100"; };
-        awl_12 = { };
-        barend = { priority = "100"; alignment = "right"; };
-      };
-    };
   };
 };
 ignores = (
