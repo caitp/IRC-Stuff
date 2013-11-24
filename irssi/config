@@ -1,5 +1,5 @@
 servers = (
- {
+  {
     address = "amigaworld.irc.paigeat.info";
     chatnet = "amigaworld";
     port = "6668";
@@ -8,7 +8,7 @@ servers = (
     ssl_verify = "no";
     autoconnect = "yes";
   },
- {
+  {
     address = "canternet.irc.paigeat.info";
     chatnet = "canternet";
     port = "6668";
@@ -2701,15 +2701,15 @@ chatnets = {
     username = "canternet";
     realname = "Anonymous girl";
   };
- amigaworld = {
+  amigaworld = {
     type = "IRC";
     nick = "amigaworld";
     username = "amigaworld";
     realname = "Anonymous girl";
   };
 
-  
-FurNet = {
+
+  FurNet = {
     type = "IRC";
     nick = "FurNet";
     username = "FurNet";
@@ -4564,14 +4564,42 @@ statusbar = {
         barend = { priority = "100"; alignment = "right"; };
       };
     };
+    awl_9 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_9 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_10 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_10 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_11 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_11 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_12 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_12 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
   };
 };
 ignores = (
   { mask = "SPENCERLEE"; level = "ALL"; },
   { mask = "*email"; level = "ALL"; },
   { mask = "*raw"; level = "ALL"; },
-  { mask = "*status"; level = "ALL"; },
-  { mask = "ScanX"; level = "ALL"; }
+  { mask = "ScanX"; level = "ALL"; },
+  { mask = "*status"; level = "ALL"; }
 );
 channels = (
   { name = "#channel3"; chatnet = "rizon"; autojoin = "yes"; },
