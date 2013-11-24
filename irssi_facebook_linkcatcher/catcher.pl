@@ -76,7 +76,7 @@ sub url_log
 sub get_config 
 {
     local $/; #enable slurp
-    open my $fh, "<", $trendsurl;
+    open my $api_key, "<", $trendsurl;
     #$json = <$fh>;
     my $json = get( $trendsurl );
     #TODO die "Could not get $trendsurl!" unless defined $json;
