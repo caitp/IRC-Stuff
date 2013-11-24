@@ -76,11 +76,11 @@ sub url_log
 sub get_config 
 {
     local $/; #enable slurp
-    open my $api_key, "<", $trendsurl;
-    #$json = <$fh>;
+        open my $api_key, "<", $trendsurl;
+#$json = <$fh>;
     my $json = get( $trendsurl );
-    #TODO die "Could not get $trendsurl!" unless defined $json;
-    # Decode the entire JSON
+#TODO die "Could not get $trendsurl!" unless defined $json;
+# Decode the entire JSON
     my $decoded_json = decode_json( $json );
     return $decoded_json;
 }
@@ -124,3 +124,9 @@ sub sendto_facebook_stream
 
     $client->auth->logout;
 }
+
+#handlers 
+Irssi::signal_add_last("message public", "url_public");
+Irssi::signal_add_last("message private", "url_private");
+#Irssi::command_bind("url", "url_cmd");
+
