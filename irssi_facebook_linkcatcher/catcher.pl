@@ -1,10 +1,11 @@
-use WWW::Facebook::API;
+use Facebook::Graph;
 use LWP::Simple;                # From CPAN
 use JSON qw( decode_json );     # From CPAN
 use Data::Dumper;               # Perl core module
 #use strict;                     # Good practice
 use warnings;                   # Good practice
 use Irssi 20010120.0250 ();
+use URI::Encode;
 $VERSION = "0.2";
 
 %IRSSI = (
@@ -80,6 +81,8 @@ sub get_config
     my $json = <FILE>;
     close(FILE);  
     my $decoded_json = decode_json( $json );
+    #TODO this shit does not work but php's worsk every fucking time.... so easy
+    #my $decoded_json->{'return_url'} = URI::Encode->new( { double_encode => 0 } )->encode($decoded_json->{'return_url'});
     return $decoded_json;
 }
 
@@ -90,41 +93,33 @@ sub get_config
 sub sendto_facebook_stream 
 {
     my $config = get_config();
-    print $config;
-    my $client = WWW::Facebook::API->new(
-            desktop => 0,
-            api_key => $config->{'app_id'},
-            secret => $config->{'app_secret'},
-            postback => $config->{'return_url'}
-            );
-    print Dumper($client);
-    return;
-# Change API key and secret
-#print "Enter your public API key: ";
-#chomp( my $val = <STDIN> );
-    #$client->api_key($val);
-#print "Enter your API secret: ";
-#chomp($val = <STDIN> );
-    #$client->secret($val);
+    if (!exists($config->{'token'}))
+    {
+        my $fb = Facebook::Graph->new(
+               # desktop => 0,
+                app_id => $config->{'app_id'},
+                secret => $config->{'app_secret'},
+                postback => $config->{'return_url'}
+                );
+        my $uri = $fb->authorize
+            ->extend_permissions(qw( email publish_stream ))
+            ->set_display('popup')
+            ->uri_as_string;
+        print URI::Encode->new( { encode_reserved => 0 } )->encode($uri);
+        return;        
+    }
+    else 
+    {
+        my $fb = Facebook::Graph->new(
+               # desktop => 0,
+                app_id => $config->{'app_id'},
+                secret => $config->{'app_secret'},
+                postback => $config->{'return_url'}
+                );
+        $fb->access_token($config->{'token'});
+    }
 
-# not needed if web app (see $client->canvas->get_fb_params)
-    #$client->auth->get_session( $token );
-
-#use Data::Dumper;
-#my $friends_perl = $client->friends->get;
-#print Dumper $friends_perl;
-
-#my $notifications_perl = $client->notifications->get;
-#print Dumper $notifications_perl;
-
-# Current user's quotes
-#my $quotes_perl = $client->users->get_info(
-#    uids   => $friends_perl,
-#    fields => ['quotes']
-#    );
-#print Dumper $quotes_perl;
-
-    $client->auth->logout;
+#    $fb->logout;
 }
 
 #handlers 
@@ -132,7 +127,7 @@ sub sendto_facebook_stream
 #Irssi::signal_add_last("message private", "url_private");
 #Irssi::command_bind("url", "url_cmd");
 print "loaded and ready.";
-my $testconfig = get_config(); 
-print Dumper($testconfig);
-print "$testconfig->{'app_id'}";
+#my $testconfig = get_config(); 
+#print Dumper($testconfig);
+#print "$testconfig->{'app_id'}";
 sendto_facebook_stream();
