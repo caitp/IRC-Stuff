@@ -2,7 +2,7 @@ use WWW::Facebook::API;
 use LWP::Simple;                # From CPAN
 use JSON qw( decode_json );     # From CPAN
 use Data::Dumper;               # Perl core module
-use strict;                     # Good practice
+#use strict;                     # Good practice
 use warnings;                   # Good practice
 use Irssi 20010120.0250 ();
 $VERSION = "0.2";
