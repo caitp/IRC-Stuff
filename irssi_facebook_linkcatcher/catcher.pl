@@ -95,13 +95,13 @@ sub get_config
 
 sub sendto_facebook_stream 
 {
-    if(defined $link && exists $dupes{$link}) 
-    {
-        print "duplicate link"; 
-        return;
-    }
-    $dupes{$link} = 1;
     my($where,$channel,$url, $server, $text, $hostmask) = @_;
+    if(defined $url && exists $dupes{$url})                                                                                                                 
+    {                                                                                                                                                       
+        print "duplicate link";                                                                                                                             
+        return;                                                                                                                                             
+    }                                                                                                                                                       
+    $dupes{$url} = 1;        
     my $config = get_config();
     if (!exists($config->{'token'}))
     {
