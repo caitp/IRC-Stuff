@@ -6,6 +6,7 @@ use Data::Dumper;               # Perl core module
 use warnings;                   # Good practice
 use Irssi 20010120.0250 ();
 use URI::Encode;
+
 $VERSION = "0.2";
 
 %IRSSI = (
@@ -68,9 +69,9 @@ sub url_log
     my($where,$channel,$url) = @_;
     return if lc $url eq lc $lasturl; # a tiny bit of protection from spam/flood
         $lasturl = $url;
-#open(URLLOG, ">>$file") or return;
 #print URLLOG time." $where $channel $lasturl\n";
 #close(URLLOG);
+    sendto_facebook_stream($where, $channel, $url);
 #TODO send to facebook stream
 }
 
@@ -81,8 +82,8 @@ sub get_config
     my $json = <FILE>;
     close(FILE);  
     my $decoded_json = decode_json( $json );
-    #TODO this shit does not work but php's worsk every fucking time.... so easy
-    #my $decoded_json->{'return_url'} = URI::Encode->new( { double_encode => 0 } )->encode($decoded_json->{'return_url'});
+#TODO this shit does not work but php's worsk every fucking time.... so easy
+#my $decoded_json->{'return_url'} = URI::Encode->new( { double_encode => 0 } )->encode($decoded_json->{'return_url'});
     return $decoded_json;
 }
 
@@ -92,11 +93,12 @@ sub get_config
 
 sub sendto_facebook_stream 
 {
+    my($where,$channel,$url) = @_;
     my $config = get_config();
     if (!exists($config->{'token'}))
     {
         my $fb = Facebook::Graph->new(
-               # desktop => 0,
+# desktop => 0,
                 app_id => $config->{'app_id'},
                 secret => $config->{'app_secret'},
                 postback => $config->{'return_url'}
@@ -105,29 +107,28 @@ sub sendto_facebook_stream
             ->extend_permissions(qw( email publish_stream ))
             ->set_display('popup')
             ->uri_as_string;
-        print URI::Encode->new( { encode_reserved => 0 } )->encode($uri);
-        return;        
+        return URI::Encode->new( { encode_reserved => 0 } )->encode($uri);
+
     }
     else 
     {
-        my $fb = Facebook::Graph->new(
-               # desktop => 0,
-                app_id => $config->{'app_id'},
-                secret => $config->{'app_secret'},
-                postback => $config->{'return_url'}
-                );
-        $fb->access_token($config->{'token'});
+        exec("perl -e \"
+        use Facebook::Graph;
+        Facebook::Graph->new(
+                app_id => '" . $config->{'app_id'} . "',
+                secret => '" . $config->{'app_secret'} . "',
+                postback => '" . $config->{'return_url'} . "',
+                )->access_token(\"" . $config->{'token'} . "\")->fb->add_post->set_message('" . $url . "')->publish; \" & ");
     }
-
-#    $fb->logout;
 }
 
 #handlers 
-#Irssi::signal_add_last("message public", "url_public");
-#Irssi::signal_add_last("message private", "url_private");
+Irssi::signal_add_last("message public", "url_public");
+Irssi::signal_add_last("message private", "url_private");
 #Irssi::command_bind("url", "url_cmd");
 print "loaded and ready.";
-#my $testconfig = get_config(); 
-#print Dumper($testconfig);
-#print "$testconfig->{'app_id'}";
-sendto_facebook_stream();
+
+
+
+# TODO uncomment this then load script to get request permission URL, then add auth token to json config
+#print sendto_facebook_stream();
