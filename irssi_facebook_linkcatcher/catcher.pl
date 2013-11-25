@@ -20,7 +20,7 @@ $VERSION = "0.2";
         );
 
 my $lasturl = '';
-
+my $dupes = ();
 # Change the file path below if needed
 my $file = "$ENV{HOME}/.urllog";
 my $api_key = "$ENV{HOME}/.fb_api_key";
@@ -95,6 +95,12 @@ sub get_config
 
 sub sendto_facebook_stream 
 {
+    if(defined $link && exists $dupes{$link}) 
+    {
+        print "duplicate link"; 
+        return;
+    }
+    $dupes{$link} = 1;
     my($where,$channel,$url, $server, $text, $hostmask) = @_;
     my $config = get_config();
     if (!exists($config->{'token'}))
