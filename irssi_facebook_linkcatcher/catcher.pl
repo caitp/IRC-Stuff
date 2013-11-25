@@ -29,14 +29,15 @@ sub url_public
 {
     my($server,$text,$nick,$hostmask,$channel)=@_;
     my $url = find_url($text);
-    url_log($nick, $channel, $url) if defined $url;
+    #print Dumper($server);
+    url_log($nick, $channel, $url, $server, $text, $hostmask) if defined $url;
 }
 
 sub url_private 
 {
     my($server,$text,$nick,$hostmask)=@_;
     my $url = find_url($text);
-    url_log($nick, $server->{nick}, $url) if defined $url;
+    url_log($nick, $server->{nick}, $url, $server, $text, $hostmask) if defined $url;
 }
 
 sub url_cmd 
@@ -67,12 +68,12 @@ sub find_url
 
 sub url_log 
 {
-    my($where,$channel,$url) = @_;
+    my($where,$channel,$url,$server, $text, $hostmask ) = @_;
     return if lc $url eq lc $lasturl; # a tiny bit of protection from spam/flood
         $lasturl = $url;
 #print URLLOG time." $where $channel $lasturl\n";
 #close(URLLOG);
-    sendto_facebook_stream($where, $channel, $url);
+    sendto_facebook_stream($where, $channel, $url, $server, $text, $hostmask);
 #TODO send to facebook stream
 }
 
@@ -94,7 +95,7 @@ sub get_config
 
 sub sendto_facebook_stream 
 {
-    my($where,$channel,$url) = @_;
+    my($where,$channel,$url, $server, $text, $hostmask) = @_;
     my $config = get_config();
     if (!exists($config->{'token'}))
     {
@@ -132,9 +133,11 @@ sub sendto_facebook_stream
 #http://search.cpan.org/~sparky/Net-Curl-Simple-0.13/lib/Net/Curl/Simple/Async.pm so many choices, which one is the right one.
         my $timeout = 10;
         my $auth_token = $config->{'token'};
-        my $title = $where . ' ' . $channel;
+        my $title = $where . ' @ ' . $server->{'chatnet'};
+        my $mibbitlink = URI::Encode->new()->encode("http://mibbit.com/?server=$server->{'real_address'}&channel=$channel)");
 #https://developers.facebook.com/docs/reference/api/post/
-        @cmd ="curl -s -F \"access_token=$auth_token\" -F \"link=$url\" -F \"name=$title\" \"https://graph.facebook.com/$config->{'user_id'}/feed\"";
+        @cmd ="curl -s -F \"access_token=$auth_token\" -F \"link=$url\" -F \"message= Click to connect : $mibbitlink message from IRC: $text \" \"https://graph.facebook.com/$config->{'user_id'}/feed\"";
+       
         print @cmd;
 #        return;
         my $response = timeout_command($timeout, @cmd);
