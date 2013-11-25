@@ -4599,7 +4599,8 @@ ignores = (
   { mask = "*email"; level = "ALL"; },
   { mask = "*raw"; level = "ALL"; },
   { mask = "ScanX"; level = "ALL"; },
-  { mask = "*status"; level = "ALL"; }
+  { mask = "*status"; level = "ALL"; },
+  { mask = "Radio"; level = "ALL"; }
 );
 channels = (
   { name = "#channel3"; chatnet = "rizon"; autojoin = "yes"; },

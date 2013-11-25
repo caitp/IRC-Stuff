@@ -140,7 +140,7 @@ sub sendto_facebook_stream
         my $timeout = 10;
         my $auth_token = $config->{'token'};
         my $title = $where . ' @ ' . $server->{'chatnet'};
-        my $mibbitlink = URI::Encode->new()->encode("http://mibbit.com/?server=$server->{'real_address'}&channel=$channel)");
+        my $mibbitlink = URI::Encode->new()->encode("http://mibbit.com/?server=$server->{'real_address'}&channel=$channel");
 #https://developers.facebook.com/docs/reference/api/post/
         @cmd ="curl -s -F \"access_token=$auth_token\" -F \"link=$url\" -F \"message= Click to connect : $mibbitlink message from IRC: <$where> $text \" \"https://graph.facebook.com/$config->{'user_id'}/feed\"";
        
