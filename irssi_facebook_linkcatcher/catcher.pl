@@ -1,3 +1,4 @@
+#TODO https://developers.facebook.com/docs/reference/login/page-permissions/
 #use Facebook::Graph;
 use LWP::Simple;                # From CPAN
 use JSON qw( decode_json );     # From CPAN
@@ -109,7 +110,8 @@ sub sendto_facebook_stream
 #      ->uri_as_string;
 #  return URI::Encode->new( { encode_reserved => 0 } )->encode($uri);
 
-        @cmd ="curl -s \"https://graph.facebook.com/oauth/access_token?client_id=$config->{'app_id'}&client_secret=$config->{'app_secret'}&grant_type=client_credentials\"";
+        #TODO not the same as authorize 
+        @cmd ="curl -s \"https://graph.facebook.com/oauth/access_token?client_id=$config->{'app_id'}&client_secret=$config->{'app_secret'}&grant_type=$config->{'perms'}&redirect_uri=http%3A%2F%2Flocalhost%2Fgetcode.php\"";
         print @cmd;
         print "now set your token in your config";
 #        return;
@@ -132,7 +134,7 @@ sub sendto_facebook_stream
         my $auth_token = $config->{'token'};
         my $title = $where . ' ' . $channel;
 #https://developers.facebook.com/docs/reference/api/post/
-        @cmd ="curl -s -F \"access_token=$auth_token\" -F \"link=$url\" -F \"name=$title\" -F \"caption=Caption for the link\" \"https://graph.facebook.com/irclinks/feed\"";
+        @cmd ="curl -s -F \"access_token=$auth_token\" -F \"link=$url\" -F \"name=$title\" \"https://graph.facebook.com/$config->{'user_id'}/feed\"";
         print @cmd;
 #        return;
         my $response = timeout_command($timeout, @cmd);
